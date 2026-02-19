@@ -1,2 +1,1 @@
-# i-news-server
-# i-news-24-api
+# i-news-24-server
