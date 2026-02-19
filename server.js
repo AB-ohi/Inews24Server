@@ -17,7 +17,7 @@ app.use(
     credentials: true,
   }),
 );
-app.use(express.json()); // 🔴 MUST for req.body
+app.use(express.json()); 
 app.use(cookieParser());
 
 // ✅ Firebase Admin Initialize
