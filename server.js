@@ -343,9 +343,8 @@ run().catch(console.dir);
 
 // Root route
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("API is running...");
 });
-
 // Start server
 app.listen(port, () => {
   console.log(`🚀 Server running on port ${port}`);
