@@ -295,7 +295,6 @@ async function run() {
       if (!ObjectId.isValid(id)) {
         return res.status(400).json({ error: "Invalid user ID" });
       }
-
       const query = { _id: new ObjectId(id) };
       const updateDoc = {
         $set: {
