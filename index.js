@@ -11,7 +11,7 @@ const serviceAccount = require("./config/firebaseConfig");
 const admin = require("firebase-admin");
 
 // ✅ Middleware
-app.use(cors({ origin: true, credentials: true }));
+app.use(cors());
 app.use(express.json()); 
 app.use(cookieParser());
 
